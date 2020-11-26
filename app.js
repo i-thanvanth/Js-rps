@@ -57,6 +57,10 @@ const game = () => {
     ).textContent = `You chose : ${choices[pchoice]} !`;
     result(pchoice, computer_choice);
   }
+  newFunction(match);
+};
+game();
+function newFunction(match) {
   document.getElementById("rock").addEventListener("click", function () {
     match(0);
   });
@@ -66,6 +70,4 @@ const game = () => {
   document.getElementById("scissors").addEventListener("click", function () {
     match(2);
   });
-};
-game();
-console.log(document.getElementById("rock"));
+}
