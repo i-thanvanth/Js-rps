@@ -1,0 +1,49 @@
+body {
+  background-color: #cdedfd;
+}
+.window__title {
+  text-align: center;
+  font-size: x-large;
+  font-family: monospace;
+  background-color: #2a2a72;
+  color: white;
+  padding: 5px;
+}
+.players_and_scores {
+  font-family: monospace;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: xx-large;
+}
+
+.player p,
+.computer p {
+  text-align: center;
+  padding: 10px;
+}
+.player h1,
+.computer h1 {
+  padding: 10px;
+}
+.options {
+  text-align: center;
+}
+.options button {
+  font-size: x-large;
+  text-align: center;
+  padding: 10px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 30px;
+  font-family: monospace;
+  font-weight: bold;
+  background-color: #f2efe9;
+}
+
+.choices {
+  text-align: center;
+  font-family: monospace;
+  font-size: xx-large;
+}
